@@ -9,6 +9,7 @@ If the vitals are not stable, the device will activate an LED to alert the perso
 ## Table of Contents
 
 - [Components](#components)
+- [Connections](#connections)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -25,6 +26,14 @@ To build this project, you will need the following components:
 - Jumper wires
 - USB cable
 
+
+## Connections
+Follow the below Connections Plan for the Proper Working of the Project:
+```
+MAX30105 sensor: Connect the SDA and SCL pins to the corresponding pins on the Arduino (usually A4 and A5 respectively). Connect the sensor's VCC and GND pins to the Arduino's 3.3V and GND pins respectively.
+LM35 sensor: Connect the sensor's VCC pin to the Arduino's 5V pin, its GND pin to the Arduino's GND pin, and its output pin to analog pin A3 on the Arduino.
+LED: Connect the LED's positive pin (anode) to digital pin 2 on the Arduino, and its negative pin (cathode) to a resistor and then to the Arduino's GND pin.
+```
 ## Installation
 
 1. Python 3.9
