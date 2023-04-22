@@ -12,6 +12,7 @@ If the vitals are not stable, the device will activate an LED to alert the perso
 - [Connections](#connections)
 - [Installation](#installation)
 - [Execution](#execution)
+- [Future Works](#futureworks)
 - [License](#license)
 
 ## Components
@@ -40,6 +41,8 @@ Follow the below Connections Plan for the Proper Working of the Project:
   Connect the LED's positive pin (anode) to digital pin 2 on the Arduino.
   Its negative pin (cathode) to a resistor and then to the Arduino's GND pin.
 ```
+Refer the below Circuit Diagram for Hardware Connections:
+![CricuitDiagram](https://user-images.githubusercontent.com/75007002/233770910-2642c7de-c64c-44eb-a298-9a313243cb4d.jpg)
 
 ## Installation
 
@@ -81,6 +84,8 @@ Please enter the following commands in CMD to download the required libraries
 10. Now Save the File and Execute the File.
 11. If there are no errors in the File then the Project will start working.
 
+## Future Works
+We can incorporate GPS Module for the above Vitals Monitoring System to get the location of the person.
 
 ## License
 This project is licensed under the MIT license. See the LICENSE file for more details.
