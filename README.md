@@ -12,7 +12,7 @@ If the vitals are not stable, the device will activate an LED to alert the perso
 - [Connections](#connections)
 - [Installation](#installation)
 - [Execution](#execution)
-- [Future Works](#Future Works)
+- [FutureWorks](#futureworks)
 - [License](#license)
 
 ## Components
@@ -84,19 +84,12 @@ Please enter the following commands in CMD to download the required libraries
 10. Now Save the File and Execute the File.
 11. If there are no errors in the File then the Project will start working.
 
-## Future Works
+## FutureWorks
 We can incorporate GPS Module for the above Vitals Monitoring System to get the location of the person.
 
 ## License
 This project is licensed under the MIT license. See the LICENSE file for more details.
 
-## Future Works
-## Requirements
-* Compiler (Recommended: Visual Studio Code)
-* MySQL Community Server 8.0.24
-* CMake
-* Dlib
-* Python 3.9
 
 
 
