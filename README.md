@@ -11,33 +11,33 @@ If the vitals are not stable, the device will activate an LED to alert the perso
 - [Components](#components)
 - [Connections](#connections)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Execution](#execution)
 - [License](#license)
 
 ## Components
 
 To build this project, you will need the following components:
 
-- Arduino board
-- LM35 temperature sensor
-- MAX30102 pulse oximeter sensor
+- Arduino Board
+- LM35 Temperature Sensor
+- MAX30102 Pulse Oximeter Sensor
 - LED
 - Breadboard
-- Jumper wires
-- USB cable
+- Jumper Wires
+- USB Cable
 
 
 ## Connections
 Follow the below Connections Plan for the Proper Working of the Project:
 ```
-1. MAX30105 sensor: 
+1. MAX30102 Sensor: 
   Connect the SDA and SCL pins to the corresponding pins on the Arduino (usually A4 and A5 respectively). 
   Connect the sensor's VCC and GND pins to the Arduino's 3.3V and GND pins respectively.
-2. LM35 sensor: 
-  Connect the sensor's VCC pin to the Arduino's 5V pin, its GND pin to the Arduino's GND pin
+2. LM35 Sensor: 
+  Connect the sensor's VCC pin to the Arduino's 5V pin, its GND pin to the Arduino's GND pin.
   Its output pin to analog pin A3 on the Arduino.
 3. LED: 
-  Connect the LED's positive pin (anode) to digital pin 2 on the Arduino
+  Connect the LED's positive pin (anode) to digital pin 2 on the Arduino.
   Its negative pin (cathode) to a resistor and then to the Arduino's GND pin.
 ```
 
@@ -63,17 +63,23 @@ Please enter the following commands in CMD to download the required libraries
   
 ```
 
-
-
-## Usage
-
-To use the device, follow these steps:
-
-1. Power on the device by connecting it to a power source or battery.
-2. Wait for the device to collect and analyze the vitals data.
-3. If the vitals are stable, the device will continue monitoring without any alerts.
-4. If the vitals are unstable, the LED will turn on for 0.5 seconds to alert the person.
-
+## Execution
+1. Once all the Hardware connections are Made, connect the Arduino to PC or Laptop
+2. Open Arduino IDE
+3. Note the Port that the Arduino Uno Board is Connected to, we may use this later.
+4. Copy and Paste the give Arduino Code in a new Arduino Sketch or Use the Same Provided Arduino File.
+5. Verify the Sketch and Upload the Code.
+6. Once Verified and Uploaded the Sketch without any errors, Quit the Arduino Sketch.
+7. Now Open the Python Source Code File
+8. Modify the Dataset path according to your location of the Dataset File.
+9. Modify the below Port Connection to your above noted Port Connection:
+  ```
+  #Serial Connection with Arduino UNO on Port COM5
+  #NOTE:It may vary
+  ser = serial.Serial('COM5', 9600)
+  ```
+10. Now Save the File and Execute the File.
+11. If there are no errors in the File then the Project will start working.
 
 
 ## License
