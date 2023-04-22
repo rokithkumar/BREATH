@@ -12,7 +12,7 @@ If the vitals are not stable, the device will activate an LED to alert the perso
 - [Connections](#connections)
 - [Installation](#installation)
 - [Execution](#execution)
-- [Future Works](#futureworks)
+- [Future Works](#Future Works)
 - [License](#license)
 
 ## Components
