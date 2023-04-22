@@ -30,10 +30,17 @@ To build this project, you will need the following components:
 ## Connections
 Follow the below Connections Plan for the Proper Working of the Project:
 ```
-MAX30105 sensor: Connect the SDA and SCL pins to the corresponding pins on the Arduino (usually A4 and A5 respectively). Connect the sensor's VCC and GND pins to the Arduino's 3.3V and GND pins respectively.
-LM35 sensor: Connect the sensor's VCC pin to the Arduino's 5V pin, its GND pin to the Arduino's GND pin, and its output pin to analog pin A3 on the Arduino.
-LED: Connect the LED's positive pin (anode) to digital pin 2 on the Arduino, and its negative pin (cathode) to a resistor and then to the Arduino's GND pin.
+1. MAX30105 sensor: 
+  Connect the SDA and SCL pins to the corresponding pins on the Arduino (usually A4 and A5 respectively). 
+  Connect the sensor's VCC and GND pins to the Arduino's 3.3V and GND pins respectively.
+2. LM35 sensor: 
+  Connect the sensor's VCC pin to the Arduino's 5V pin, its GND pin to the Arduino's GND pin
+  Its output pin to analog pin A3 on the Arduino.
+3. LED: 
+  Connect the LED's positive pin (anode) to digital pin 2 on the Arduino
+  Its negative pin (cathode) to a resistor and then to the Arduino's GND pin.
 ```
+
 ## Installation
 
 1. Python 3.9
